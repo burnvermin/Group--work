@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>After School Learning</title>
+</head>
+<body>
+    <div class="container" id="section1">   
+        <div class="header" >
+            <a href="" class="num"> {{cartItemCount}}</a>
+            <a class="fas fa-cart-plus"></a>
+        </div>
+
+        <div  class="section1">
+            <figure>
+                <img v-bind:src ="Lessons.image"  alt="Maths.png" id="mathsPng" class="mathsPng">
+            </figure>
+            <p><strong>Subject:</strong> {{Lessons.subject}}</p>
+            <p><strong>Location:</strong> {{Lessons.location}}</p>
+            <p><strong>price: </strong> ${{Lessons.price}}</p>
+            <p><strong>Spaces:</strong> {{Lessons.spaces}}</p>
+            <button class="button" value="add"  v-on:Click="addItem">Add to Cart</button>
+        </div>
+
+    </div>
+    
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
