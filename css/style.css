@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+body .container {
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+}
+
+body .container .header {
+  float: right;
+  position: relative;
+}
+
+body .container .header .num {
+  background-color: #dd890c;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: -15%;
+  left: -5%;
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+body .container .header .fas {
+  color: #2072dd;
+  font-size: 50px;
+}
+
+body .container .section1 {
+  position: absolute;
+  text-align: left;
+  background-color: rgba(163, 159, 159, 0.2);
+  -webkit-box-shadow: 15px 15px 10px #d6d6d6;
+          box-shadow: 15px 15px 10px #d6d6d6;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+body .container .section1 p {
+  margin-left: 45px;
+}
+
+body .container .section1 p strong {
+  text-transform: uppercase;
+}
+
+body .container .section1 .button {
+  position: absolute;
+  right: 15%;
+  bottom: 7%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgba(32, 114, 221, 0.9);
+  color: white;
+  border-radius: 10px;
+}
+
+body .container .section1 .mathsPng {
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */

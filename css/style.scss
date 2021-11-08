@@ -1,0 +1,78 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+
+    .container {
+        position: relative;
+        margin: auto;
+        margin-top: 10%;
+        align-items: center;
+        width: 90vw;
+
+        .header {
+            float: right;
+            position: relative;
+
+            .num {  
+                background-color: rgb(221, 137, 12);
+                padding: 5px 10px;
+                border-radius: 10px;
+                position: absolute;
+                top: -15%;
+                left: -5%;
+                text-decoration: none;
+                text-transform: none;
+                color: white;
+            }
+
+            .fas  {                
+            color: rgb(32, 114, 221);
+            font-size: 50px;
+            }
+        }
+
+
+        .section1 {
+            position: absolute;
+            text-align: left;
+            background-color: rgba(163, 159, 159, .2);
+            box-shadow: 15px 15px 10px rgb(214, 214, 214);
+            padding: 15px ;
+            border-radius: 20px;
+            font-size: 20px;
+
+            p {
+                margin-left: 45px;
+
+                strong {
+                     text-transform: uppercase;
+                }
+
+            }
+            .button {
+                position: absolute;
+                right: 15%;
+                bottom: 7%;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 10px 20px;
+                background-color: rgba(32, 114, 221, .9);
+                color: white;
+                border-radius: 10px;
+
+            }
+
+            .mathsPng {
+                border-radius: 20px;
+            }
+
+        }
+    }
+}
