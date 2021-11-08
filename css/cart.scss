@@ -11,6 +11,25 @@ body {
         margin: auto;
         margin-top: 10%;
         align-items: center;
+        
+         a {
+            position: absolute;
+            cursor: pointer;
+            margin-top: 5%;
+            text-transform: none;
+            text-decoration: none;
+            color: white ;
+            border-radius: 50px;
+            white-space: normal;
+            width: 30px;
+            background-color: rgb(255, 0, 0);
+            padding: 10px 15px;
+            text-align: center;
+
+        }
+        a:hover {
+            transform: scale(.8);
+        }
 
     }
     

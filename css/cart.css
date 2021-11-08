@@ -18,4 +18,24 @@ body .section1 {
       -ms-flex-align: center;
           align-items: center;
 }
+
+body .section1 a {
+  position: absolute;
+  cursor: pointer;
+  margin-top: 5%;
+  text-transform: none;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  white-space: normal;
+  width: 30px;
+  background-color: red;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+body .section1 a:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
 /*# sourceMappingURL=cart.css.map */
