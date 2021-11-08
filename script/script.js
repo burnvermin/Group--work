@@ -11,6 +11,7 @@ var lessons = new Vue ({
             location: "London",
             price: 100,
             spaces: 5,
+            numberPurchased: 5,
             image: "\\images//Maths.png"
         }
     },
@@ -21,7 +22,9 @@ var lessons = new Vue ({
             this.cart.push(this.Lessons.id++); 
             if(this.Lessons.spaces > 0){
                --this.Lessons.spaces
-               this.Lessons.spaces              
+               this.Lessons.spaces 
+               console.log(this.Lessons.numberPurchased++) 
+               console.log(this.Lessons.numberPurchased)             
             }else{
                 alert('No more available spaces')
             }

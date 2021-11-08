@@ -37,9 +37,11 @@ body .container .header .num {
   color: white;
 }
 
-body .container .header .fas {
+body .container .header .fas, body .container .header .fa-cart-plus a {
   color: #2072dd;
   font-size: 50px;
+  text-decoration: none;
+  text-transform: none;
 }
 
 body .container .section1 {

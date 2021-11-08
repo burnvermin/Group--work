@@ -31,9 +31,11 @@ body {
                 color: white;
             }
 
-            .fas  {                
+            .fas, .fa-cart-plus a {                
             color: rgb(32, 114, 221);
             font-size: 50px;
+            text-decoration: none;
+            text-transform: none;
             }
         }
 

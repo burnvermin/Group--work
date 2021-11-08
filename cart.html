@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>Check Out</title>
+</head>
+<body>
+
+    <div  id="section1" class="section1">
+        <p><strong>Subject:</strong> {{Lessons.subject}}</p>
+        <p><strong>Location:</strong> {{Lessons.location}}</p>
+        <p><strong>price: </strong> ${{Lessons.price}}</p>
+        <p><strong>Number of lessons</strong> {{Lessons.numberPurchased}}</p>
+        <button class="button" value="add"  v-on:Click="">Complete Purchase</button>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
