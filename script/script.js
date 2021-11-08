@@ -12,7 +12,7 @@ var lessons = new Vue ({
             price: 100,
             spaces: 5,
             numberPurchased: 5,
-            image: "\\images//Maths.png"
+            image: "\images//Maths.png"
         }
     },
                
